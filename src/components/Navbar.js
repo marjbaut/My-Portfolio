@@ -5,10 +5,10 @@ export default function Navbar() {
 
     <nav className=" container-fluid navBG nav-container flex-wrap d-flex justify-content-center ">
         {/* <div className=" title " href="#">M B</div> */}
-        <img className="col-6" src='  https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif' style={{ width: 120, height: 120 }}/>
+        <img className="" src='  https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif' style={{ width: 120, height: 120 }}/>
 
-        <div className="nav-section flex-wrap " id="navbarNav">
-          <ul className="nav navbar-nav pt-4 flex-wrap  " >
+        <div className="align-items-center" id="navbarNav">
+          <ul className="nav d-flex justify-content-around " >
             <li className="nav-item flex-wrap ">
               <a className="nav-link navcolor fs-3" aria-current="page" href="#">HOME</a>
             </li>

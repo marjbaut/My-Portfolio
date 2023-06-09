@@ -5,10 +5,10 @@ export default function Projects({ projectData }) {
 
     return (
         <div id='projectId'>
-            <header className="constainer projectBox d-flex">
-            <img className="col-6" src='https://media.giphy.com/media/zbMRZx113HKBkeCwrm/giphy.gif' style={{ width: 170, height: 170 }}/>
+            <header className="container projectBox d-flex  flex-wrap">
+            <img className="col-5" src='https://media.giphy.com/media/zbMRZx113HKBkeCwrm/giphy.gif' style={{ width: 150, height: 150 }}/>
 
-            <h1 className="col-6 text-center projTitle mt-5 mb-5 "> Projects: </h1>           
+            <h1 className="col-7 text-center projTitle  "> Projects: </h1>           
     
             </header>
 

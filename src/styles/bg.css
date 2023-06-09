@@ -79,13 +79,13 @@ justify-content: space-between !important;
 
 .projTitle{
   color: #e6cb7b;
- font-size: 55px;
+ font-size:40px;
   font-weight:800;
   padding-left: 10%;
 }
 .projName{
   color: #f1e0ac;
-  font-size: 25px;
+  font-size: large;
   align-items: start;
 }
 .projDes{
