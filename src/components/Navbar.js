@@ -10,16 +10,16 @@ export default function Navbar() {
         <div className="align-items-center" id="navbarNav">
           <ul className="nav d-flex justify-content-around " >
             <li className="nav-item flex-wrap ">
-              <a className="nav-link navcolor fs-3" aria-current="page" href="#">HOME</a>
+              <a className="nav-link navcolor fs-3" aria-current="page" href="hello">HOME</a>
             </li>
             <li className="nav-item flex-wrap">
               <a className="nav-link navcolor fs-3 " href="#">ABOUT</a>
             </li>
             <li className="nav-item  flex-wrap">
-              <a className="nav-link navcolor fs-3 " href="#">PORTFOLIO</a>
+              <a className="nav-link navcolor fs-3 " href="project">PORTFOLIO</a>
             </li>
             <li className="nav-item flex-wrap ">
-              <a className="nav-link navcolor fs-3 ">CONTACT</a>
+              <a className="nav-link navcolor fs-3" href="contactMe">CONTACT</a>
             </li>
           </ul>
         </div>

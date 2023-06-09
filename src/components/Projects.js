@@ -4,7 +4,7 @@ export default function Projects({ projectData }) {
 
 
     return (
-        <div id='projectId'>
+        <div id='project'>
             <header className="container projectBox d-flex  flex-wrap">
             <img className="col-5" src='https://media.giphy.com/media/zbMRZx113HKBkeCwrm/giphy.gif' style={{ width: 150, height: 150 }}/>
 

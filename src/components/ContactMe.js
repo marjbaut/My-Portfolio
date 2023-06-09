@@ -2,9 +2,9 @@ import React from "react";
 
 export default function ContactMe() {
     return (
-        <div className="contactBG">
+        <div className="contactBG" > 
             <header className="container ">
-                <h1 className="text-center contactTitle mt-5 mb-5 "> Contact Me </h1>
+                <h1 className="text-center contactTitle mt-5 mb-5 " id='contactMe'> Contact Me </h1>
             </header>
             <div className="container contactInfo">
             <h2 >marjoriebaut.w@gmail.com</h2>
