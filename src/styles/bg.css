@@ -1,0 +1,124 @@
+
+
+.mainBG{
+  background-color: #383e56;
+  font-family: 'Andale Mono' ;
+
+}
+.homeBG{
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/reactCode.png"); */
+  background-color: #749598 ;
+  background-size: 100%;
+  background-position: 100%;
+  width: 100%;
+  opacity: 1.1;
+}
+.intro{
+padding: 3%;
+padding-bottom: 5%;
+align-items: center;
+  text-align: center;
+}
+/* MARJORIE BAUTISTA HOME */
+.intro h1{
+  padding-top: 2%;
+  padding-bottom: 5%;
+  margin: 0;
+  font-size: 50px;
+  color: #f1e0ac;
+  font-weight: 550;
+  font-family: 'Andale Mono' ;
+}
+  .intro p{
+    padding-bottom: 2%;
+    padding-top: 4%;
+  font-size: 25px;
+  color: #f1e0ac;
+  font-weight: 550;
+  font-family: 'Andale Mono' ;
+  margin: 0;
+};
+
+.nav-container{
+display: flex !important;
+justify-content: space-between !important;
+}
+
+.title{
+  color: #f1e0ac;
+  font-size: 28px;
+  margin-left: 10px;
+}
+.navbar-nav{
+  flex-direction: row;
+  margin-right: 50px;
+  width: 900px;
+  justify-content: space-evenly;
+  font-family: 'Andale Mono';
+  font-weight: 800;
+
+}
+.proj1{
+  background-image: url('../images/noteTaker.png');
+  background-size: 100%;
+  background-position: 100%;
+  width: 250px;
+  height: 150px;
+  
+}
+.proj2{
+  background-image: url('../images/Eclinic.png');
+  background-size: 100%;
+  background-position: 100%;
+  width: 250px;
+  height: 150px;
+  
+}
+
+
+.projTitle{
+  color: #e6cb7b;
+ font-size: 55px;
+  font-weight:800;
+  padding-left: 10%;
+}
+.projName{
+  color: #f1e0ac;
+  font-size: 25px;
+  align-items: start;
+}
+.projDes{
+  color: #f1e0ac;
+  text-align: start;
+}
+.projImg{
+  border: black 10px;
+}
+.navBG{
+  background-color: #749598;
+  
+}
+
+.navcolor{
+  color:#655D8A;
+  font-weight: 800;
+  font-size: large;
+  }
+
+  .contactTitle{
+    color: #e6cb7b;
+    font-size: 55px;
+    font-weight:800;
+    align-items: center;
+  }
+  .contactBG{
+    background-color: #749598;
+    font-size: 18px;
+  }
+  .contactInfo{
+    color: #f1e0ac;
+    font-weight:800;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+  }
