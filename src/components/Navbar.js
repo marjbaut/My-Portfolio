@@ -3,22 +3,22 @@ import React from "react";
 export default function Navbar() {
   return (
 
-    <nav className=" navBG nav-container  d-flex justify-content-center ">
+    <nav className=" container-fluid navBG nav-container flex-wrap d-flex justify-content-center ">
         {/* <div className=" title " href="#">M B</div> */}
         <img className="col-6" src='  https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif' style={{ width: 120, height: 120 }}/>
 
-        <div className="nav-section d-flex " id="navbarNav">
-          <ul className="nav navbar-nav  " >
-            <li className="nav-item d-flex p-5">
+        <div className="nav-section flex-wrap " id="navbarNav">
+          <ul className="nav navbar-nav pt-4 flex-wrap  " >
+            <li className="nav-item flex-wrap ">
               <a className="nav-link navcolor fs-3" aria-current="page" href="#">HOME</a>
             </li>
-            <li className="nav-item d-flex p-5">
+            <li className="nav-item flex-wrap">
               <a className="nav-link navcolor fs-3 " href="#">ABOUT</a>
             </li>
-            <li className="nav-item d-flex p-5">
+            <li className="nav-item  flex-wrap">
               <a className="nav-link navcolor fs-3 " href="#">PORTFOLIO</a>
             </li>
-            <li className="nav-item d-flex p-5">
+            <li className="nav-item flex-wrap ">
               <a className="nav-link navcolor fs-3 ">CONTACT</a>
             </li>
           </ul>
