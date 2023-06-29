@@ -16,7 +16,7 @@ const projectData = [
         name: 'Appointment Booking System',
         description: 'A software solution and reservation system that makes it simple for users to book an appointment.Can be use for any kind of bussines such as clinics, salon services and any other industry.',
         link: 'https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/',
-        GitHub: 'https://github.com/marjbaut/My-Portfolio'
+        github: 'https://github.com/marjbaut/My-Portfolio'
     },
 ];
 

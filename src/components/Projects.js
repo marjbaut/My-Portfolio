@@ -27,11 +27,10 @@ export default function Projects({ projectData }) {
                         </ul  >
                         <a className="projD  col-2 d-flex text-center text-align-center" href={`${data.link}`}>
                             Application
-                        {/* <img className={`${data.image} projImg `}  alt="" /> */}
+                  
                         </a>
                         <a className="projD col-2 d-flex text-center text-align-center" href={`${data.github}`}>
                         github link
-                        {/* <img className={`${data.image} projImg `}  alt="" /> */}
                         </a>
                         
 
