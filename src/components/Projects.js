@@ -6,9 +6,9 @@ export default function Projects({ projectData }) {
     return (
         <div id='project'>
             <header className="container projectBox d-flex  flex-wrap">
-            <img className="col-5" src='https://media.giphy.com/media/zbMRZx113HKBkeCwrm/giphy.gif' style={{ width: 150, height: 150 }}/>
+            <img className="col-6" src='https://media.giphy.com/media/zbMRZx113HKBkeCwrm/giphy.gif' style={{ width: 150, height: 150 }}/>
 
-            <h1 className="col-7 text-center projTitle  "> Projects: </h1>           
+            <h1 className="col-6 text-center projTitle  pr-5"> Projects: </h1>           
     
             </header>
 
@@ -25,8 +25,12 @@ export default function Projects({ projectData }) {
                            <p>{`${data.description}`}
                             </p> 
                         </ul  >
-                        <a className="projD d-flex text-center text-align-center" href={`${data.link}`}>
-                            Click here to see the repo
+                        <a className="projD  col-2 d-flex text-center text-align-center" href={`${data.link}`}>
+                            Application
+                        {/* <img className={`${data.image} projImg `}  alt="" /> */}
+                        </a>
+                        <a className="projD col-2 d-flex text-center text-align-center" href={`${data.github}`}>
+                        github link
                         {/* <img className={`${data.image} projImg `}  alt="" /> */}
                         </a>
                         

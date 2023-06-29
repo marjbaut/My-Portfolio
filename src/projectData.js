@@ -14,9 +14,9 @@ const projectData = [
     // },
     {
         name: 'Appointment Booking System',
-        description: 'This website can be used to organize patient and doctor records in hopitals or clinics.',
+        description: 'A software solution and reservation system that makes it simple for users to book an appointment.Can be use for any kind of bussines such as clinics, salon services and any other industry.',
         link: 'https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/',
-        GitHub: 'This website can be used to organize patient and doctor records in hopitals or clinics.'
+        GitHub: 'https://github.com/marjbaut/My-Portfolio'
     },
 ];
 
