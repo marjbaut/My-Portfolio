@@ -30,7 +30,7 @@ export default function Projects({ projectData }) {
                   
                         </a>
                         <a className="projD col-2 d-flex text-center text-align-center" href={`${data.github}`}>
-                        github link
+                        Github link
                         </a>
                         
 
