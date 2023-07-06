@@ -10,7 +10,7 @@ const style = {
 function Hello() {
   const name = 'MARJORIE BAUTISTA';
   const description = 'I am a software developer';
-  const languages = ' Node.JS, Express, REACT, MERN STACK, SQL, NoSQL, Etc.  '
+  const languages = ' Node.js, Express.js, REACT, MERN Stack, SQL, NoSQL, Etc.  '
   // The return statement contains something called "JSX"
   // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
   // Expressions in JSX should be placed in curly braces {}
